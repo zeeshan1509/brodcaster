@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 import "mapbox-gl/dist/mapbox-gl.css";
 import Map, { Marker, Popup } from "react-map-gl";
-import foxhamMarker from "../images/marker.png";
+import foxhamMarker from "../images/foxhamLogoPin.png";
 import MuseumIcon from "../images/museum.png";
-import subwayIcon from "../images/subway.png";
+import subwayIcon from "../images/underground.png";
 import "./Map.css";
 const Landmarks = [
   {
     name: "Foxham",
     icon: foxhamMarker,
-    height: "45px",
-    width: "25px",
+    height: "50px",
+    width: "40px",
     lat: 51.519339796644964,
     long: -0.11681045900716144,
   },
@@ -26,7 +26,7 @@ const Landmarks = [
     name: "Holborn",
     icon: subwayIcon,
     height: "45px",
-    width: "35px",
+    width: "45px",
     lat: 51.51844623728697,
     long: -0.11969491555994083,
   },
@@ -34,7 +34,7 @@ const Landmarks = [
     name: "Covent Garden",
     icon: subwayIcon,
     height: "45px",
-    width: "35px",
+    width: "45px",
     lat: 51.51374598251372,
     long: -0.12407228045217562,
   },
@@ -42,7 +42,7 @@ const Landmarks = [
     name: "Goodge Street",
     icon: subwayIcon,
     height: "45px",
-    width: "35px",
+    width: "45px",
     lat: 51.52118147191416,
     long: -0.13461925997294122,
   },
@@ -50,7 +50,7 @@ const Landmarks = [
     name: "Tottenham Court Road",
     icon: subwayIcon,
     height: "45px",
-    width: "35px",
+    width: "45px",
     lat: 51.51717833735463,
     long: -0.1298246346907746,
   },
@@ -58,7 +58,7 @@ const Landmarks = [
     name: "Russell Square",
     icon: subwayIcon,
     height: "45px",
-    width: "35px",
+    width: "45px",
     lat: 51.523862620061664,
     long: -0.12466586078088186,
   },
@@ -66,7 +66,7 @@ const Landmarks = [
     name: "Chancery Lane",
     icon: subwayIcon,
     height: "45px",
-    width: "35px",
+    width: "45px",
     lat: 51.51896237550964,
     long: -0.1113062934363057,
   },

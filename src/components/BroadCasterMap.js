@@ -3,8 +3,7 @@ import { useEffect, useState, useCallback, useMemo, useRef } from "react";
 import Map, { Layer, Popup, Source } from "react-map-gl";
 import "./Map.css";
 
-const geojsonUrl =
-  "https://raw.githubusercontent.com/zeeshan1509/covid19livecases/main/src/data/countries.json";
+const geojsonUrl = "https://foxhams.s3.eu-west-2.amazonaws.com/countries.json";
 
 const BroadCasterMap = ({ data }) => {
   const mapRef = useRef(null);

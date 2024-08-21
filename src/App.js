@@ -2650,11 +2650,11 @@ function App() {
   ];
   return (
     <div className="App">
-      {/* <MapArea /> */}
+      <MapArea />
 
       {/* <BroadCasterMap data={selectedCountries} /> */}
       {/* <SingleStadium data={singleStadiumData} /> */}
-      <MultipleStadium data={multipleStadiumData} />
+      {/* <MultipleStadium data={multipleStadiumData} /> */}
     </div>
   );
 }

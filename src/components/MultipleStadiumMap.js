@@ -4,8 +4,7 @@ import Map, { Layer, Marker, Popup, Source } from "react-map-gl";
 import "./Map.css";
 import { LngLatBounds } from "mapbox-gl";
 
-const geojsonUrl =
-  "https://raw.githubusercontent.com/zeeshan1509/covid19livecases/main/src/data/countries.json";
+const geojsonUrl = "https://foxhams.s3.eu-west-2.amazonaws.com/countries.json";
 
 const MultipleStadium = ({ data }) => {
   const mapRef = useRef(null);
