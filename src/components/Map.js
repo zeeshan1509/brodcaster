@@ -83,7 +83,7 @@ const MapArea = () => {
         latitude: 51.519339796644964,
         zoom: 15,
       }}
-      mapStyle={"mapbox://styles/foxhams/clzoaa4u2007w01qtb0zlcpf0"}
+      mapStyle={"mapbox://styles/foxhams/clzoh0hc0007z01pd6myyfz3w"}
     >
       {Landmarks.map((item, i) => (
         <Marker
